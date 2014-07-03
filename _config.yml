@@ -64,7 +64,7 @@ disqus:
   id: m
 duoshuo:
   config: true
-  id: iccm2
+  id: iccm
 
 author:
   name: CCM
