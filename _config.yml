@@ -5,9 +5,9 @@ paginate: 10
 safe: false
 
 #站点基础配置
-title: 数据科学与统计学习
+title: 素履独行
 subTitle: 
-description: f (数据科学,统计学习,数据可视化,R语言,Python, 大数据,...) × 10000小时
+description: 
 url: http://blog.iccm.cc
 feed: /atom.xml
 
