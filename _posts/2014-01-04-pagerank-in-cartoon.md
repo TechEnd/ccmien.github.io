@@ -13,3 +13,4 @@ categories:
   - 机器学习
 format: image
 ---
+![image](http://upload.wikimedia.org/wikipedia/commons/thumb/6/69/PageRank-hi-res.png/800px-PageRank-hi-res.png)]

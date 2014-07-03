@@ -9,6 +9,7 @@ categories:
   - 闪存
 format: gallery
 ---
-参考：<http://blog.osteele.com/posts/2008/05/my-git-workflow><!--more-->
 
-![image](http://iccm.cc/wp-content/uploads/2014/05/git-transport-300x283.png)]
+![image](http://assets.osteele.com/images/2008/git-transport.png)
+
+参考：<http://blog.osteele.com/posts/2008/05/my-git-workflow>

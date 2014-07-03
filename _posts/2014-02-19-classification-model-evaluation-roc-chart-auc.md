@@ -13,9 +13,9 @@ categories:
 tags:
   - 分类器
 ---
-分类模型评价一般有以下几种方法：混淆矩阵(Confusion Matrix)、收益图(Gain Chart)、提升图(Lift Chart)、KS图(KS Chart)、接受者操作特性曲线(ROC Chart)。“<a href="http://iccm.cc/?s=分类器评价与在R中的实现" target="_blank">分类器评价与在R中的实现</a>”系列中将逐个介绍。
+分类模型评价一般有以下几种方法：混淆矩阵(Confusion Matrix)、收益图(Gain Chart)、提升图(Lift Chart)、KS图(KS Chart)、接受者操作特性曲线(ROC Chart)。“分类器评价与在R中的实现”系列中将逐个介绍。
 
-之前已介绍过最基础的<a title="分类模型评价与在R中的实现：混淆矩阵" href="http://iccm.cc/2014/01/classification-model-evaluation-confusion-matrix/" target="_blank">混淆矩阵</a>、<a title="分类器评价与在R中的实现：收益图与提升图" href="http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart/" target="_blank">收益图与提升图</a>。本篇介绍ROC图(ROC Chart)及由此计算的AUC。<!--more-->
+之前已介绍过最基础的<a title="分类模型评价与在R中的实现：混淆矩阵" href="http://iccm.cc/classification-model-evaluation-confusion-matrix/" target="_blank">混淆矩阵</a>、<a title="分类器评价与在R中的实现：收益图与提升图" href="http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart/" target="_blank">收益图与提升图</a>。本篇介绍ROC图(ROC Chart)及由此计算的AUC。<!--more-->
 
 # 一、ROC图简介
 
