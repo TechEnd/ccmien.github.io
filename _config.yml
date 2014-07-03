@@ -59,5 +59,9 @@ page:
     icon: icon-github
     class: none
 
+duoshuo:
+  config: false
+  id: iccm
+
 author:
   name: CCM
