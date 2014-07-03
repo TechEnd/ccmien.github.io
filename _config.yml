@@ -8,7 +8,7 @@ safe: false
 title: 数据科学与统计学习
 subTitle: 
 description: f (数据科学,统计学习,数据可视化,R语言,Python, 大数据,...) × 10000小时
-url: http://localhost:4000
+url: http://blog.iccm.cc
 feed: /atom.xml
 
 #菜单配置
