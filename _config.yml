@@ -60,7 +60,7 @@ page:
     class: none
 
 duoshuo:
-  config: false
+  config: true
   id: iccm
 
 author:
