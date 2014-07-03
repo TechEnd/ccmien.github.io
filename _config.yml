@@ -21,10 +21,19 @@ nav:
     url: /archives.html
     icon: icon-reorder
     class: none
-  - text: 关于我
-    url: /contact.html
-    icon: icon-envelope-alt
+  - text: Linkedin
+    url: http://cn.linkedin.com/in/chaominchen
+    icon: icon-linkedin
     class: none
+  - text: Github
+    url: https://github.com/ccmien
+    icon: icon-github
+    class: none
+
+  # - text: 关于我
+  #   url: /contact.html
+  #   icon: icon-envelope-alt
+  #   class: none
   # - text: 联系我
   #   url: http://www.zhanxin.info/contact.html
   #   icon: icon-heart
@@ -35,12 +44,12 @@ nav:
   #   class: none
 
 page:
-  - text: 文章分类
+  - text: 归档
     url: /archives.html
     last: true
-  - text: 友情链接
-    url: /links.html
-    last: true
+  # - text: 喜欢的网站
+  #   url: /links.html
+  #   last: true
   - text: 关于我
     url: /contact.html
     last: false
