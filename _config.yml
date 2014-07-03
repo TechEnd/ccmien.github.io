@@ -50,9 +50,14 @@ page:
   # - text: 喜欢的网站
   #   url: /links.html
   #   last: true
-  - text: 关于我
-    url: /contact.html
-    last: false
+  - text: Linkedin
+    url: http://cn.linkedin.com/in/chaominchen
+    icon: icon-linkedin
+    class: none
+  - text: Github
+    url: https://github.com/ccmien
+    icon: icon-github
+    class: none
 
 author:
   name: CCM
