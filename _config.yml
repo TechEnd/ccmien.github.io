@@ -58,7 +58,10 @@ page:
     url: https://github.com/ccmien
     icon: icon-github
     class: none
-
+#评论信息
+disqus:
+  config: false
+  id: m
 duoshuo:
   config: true
   id: iccm2
