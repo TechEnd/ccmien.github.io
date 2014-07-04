@@ -5,8 +5,8 @@ paginate: 10
 safe: false
 
 #站点基础配置
-title: 素履独行
-subTitle: 
+title: i CCM
+subTitle: Always Curious.
 description: 
 url: http://iccm.cc
 feed: /atom.xml
