@@ -1,5 +1,5 @@
-markdown: rdiscount
-#highlight: false
+markdown: kramdown
+pygments: true
 plugins: ./_plugins
 paginate: 10
 safe: false
