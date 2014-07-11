@@ -5,6 +5,13 @@ layout: post
 permalink: /monty_hall_problem/
 categories:
 tags:
+description: "第一次听到三门问题是在电影《决胜21点》中，教授给出游戏*Let's Make a Deal*的设定：
+
+1. 向参赛者展示三道关闭的门，其中有一道门后有奖品一辆汽车，而其他两门后则两头山羊。门后汽车的摆放是随机的。如果参赛者猜中哪道门后有汽车，则赢得奖品。
+2. 游戏过程是先由参赛者选择三门之一，我们假设是门x；然后，知道奖品在哪的主持人会在剩下的门y, 门z中选择一个门后没有奖品的打开。之后，主持人会询问参赛者是否坚持选择门x，或者换到剩下的另一种选择。
+
+教授的问题是，此时参赛者应该坚持原有选择，还是换门？换不换会有区别嘛？
+"
 ---
 
 
@@ -47,7 +54,7 @@ P(A|B) = P(AB)/P(B) = P(A) * P(B|A) / (第三列之和 = 1/2)
 ## 解法3 模拟
 ![monty hall simu]({{ site.url }}/img/monty_hall_simu.png)
 
-```r
+{% highlight r %}
 require(ggplot2)
 num_simu <- 1:5000
 set.seed(12); car_pos <- sample(c('x', 'y', 'z'), length(num_simu), replace = T)
@@ -65,4 +72,4 @@ ggplot(monty_data, aes(num_simu)) +
   geom_line(aes(y = result_stay_cum, col = "result_stay_cum")) + 
   geom_line(aes(y = result_change_cum, col = "result_change_cum")) +
   ylab("Probability of Winning")
-```
+{% endhighlight %}
