@@ -18,13 +18,13 @@ data.table包比tapply快10+倍，比==快100+倍, 比DF[i, j] <- value快500+�
 `DT[where,select|update,group by][having][order by][ ]...[ ]`
 
 ## Q: 读入数据
-{% highlight r %}
+```r
 DT <- fread("filelocation")
 DT2 <- data.table(read.table("filelocation"))
-{% endhighlight %}
+```
 
 ## Q: 新增/删除/更新变量
-{% highlight r %}
+```r
 # add
 DT[, varnew := var1 + var2]
 DT[, `:=`(varnew1 = var1 * var2, varnew2 = var1 / var2)]
@@ -35,12 +35,12 @@ DT[, c("var4", "var5") := NULL]
 # update
 DT[, varupdate := ifelse(var1 > var2, 0, varupdate)]
 DT[var1 > var2, varupdate := 0]
-{% endhighlight %}
+```
 
 ## Q：j中函数使用变量名 
-{% highlight r %}
+```r
 fun <-function(x,y,where=parent.frame()){
 	return(get(x,where) * get(y,where))
 	}
 DT[, lapply(c('var1','var2'), fun, y ='var3', where=.SD)]
-{% endhighlight %}
+```

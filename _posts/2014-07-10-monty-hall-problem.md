@@ -25,11 +25,11 @@ description: "第一次听到三门问题是在电影《决胜21点》中，教�
 同学们纷纷表示没区别，奖品在剩下两门中任一一门的概率均为1/2。此时男主鄙视地说出了正确答案：换门获胜的概率为2/3。
 
 ## 解法1 简单列举
-门x  | 门y | 门z |坚持门x|换门
-----|------|----|------|----
-汽车 | 山羊  | 山羊 |中奖 |失败
-山羊 | 汽车  | 山羊 |失败 |中奖
-山羊 | 山羊  | 汽车 |失败 |中奖
+门x  | 门y   | 门z |坚持门x|换门
+-----|------|-----|------|----
+汽车 | 山羊  | 山羊 |中奖  |失败
+山羊 | 汽车  | 山羊 |失败  |中奖
+山羊 | 山羊  | 汽车 |失败  |中奖
 
 by [vos Savant, Marilyn](http://marilynvossavant.com/game-show-problem/)
 
@@ -54,7 +54,7 @@ P(A|B) = P(AB)/P(B) = P(A) * P(B|A) / (第三列之和 = 1/2)
 ## 解法3 模拟
 ![monty hall simu]({{ site.url }}/img/monty_hall_simu.png)
 
-{% highlight r %}
+```r
 require(ggplot2)
 num_simu <- 1:5000
 set.seed(12); car_pos <- sample(c('x', 'y', 'z'), length(num_simu), replace = T)
@@ -72,4 +72,4 @@ ggplot(monty_data, aes(num_simu)) +
   geom_line(aes(y = result_stay_cum, col = "result_stay_cum")) + 
   geom_line(aes(y = result_change_cum, col = "result_change_cum")) +
   ylab("Probability of Winning")
-{% endhighlight %}
+```
