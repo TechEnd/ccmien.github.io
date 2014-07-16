@@ -44,3 +44,9 @@ fun <-function(x,y,where=parent.frame()){
 	}
 DT[, lapply(c('var1','var2'), fun, y ='var3', where=.SD)]
 ```
+
+## Q: 错误提示result for group n has column n type type_x(eg:'integer') but expecting type type_y(eg:'double')
+
+这是由于data.table包在计算完第一组变量后，会自动设定各变量的变量类型type_x。如果后面有一组的变量计算结果为type_y，就会导致此错误。比如计算变量mean(1:9), 结果是5，变量类型为integer，当后面某组计算mean(1:10)这样返回值5.5是double类型时，就会出现错误。
+
+解决方法很简单，统一变量类型。比如用as.double(mean(vector))将返回值强制变量类型为double就可以了。
