@@ -28,7 +28,7 @@ DT2 <- data.table(read.table("filelocation"))
 # add
 DT[, varnew := var1 + var2]
 DT[, `:=`(varnew1 = var1 * var2, varnew2 = var1 / var2)]
-DT[, c("varnew1", "varnew2") := list(tmp <- var1 * var2, tmp/100)]
+DT[, c("varnew1", "varnew2") := list(tmp <- var1 * var2, tmp/100)] # 如果要接着用tmp, 此处只能用"<-"
 # delete
 DT[, var3 := NULL]
 DT[, c("var4", "var5") := NULL]
