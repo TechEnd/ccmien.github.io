@@ -17,7 +17,7 @@ Coursera上Johns Hopkins University前两日发布了数据科学(Data Science)�
 
 # Coursera
 
-1.  Stanford老牌经典机器学习公开课《机器学习<a href="https://www.coursera.org/course/ml" target="_blank">Machine Learning</a>》，口碑极好，极力推荐，用Matlab。最近又有新session开设，14年3月开课。
+1.  Stanford老牌经典机器学习公开课《机器学习<a href="https://www.coursera.org/course/ml" target="_blank">Machine Learning</a>》，口碑极好，极力推荐，用Matlab/Octave。最近又有新session开设，14年3月开课。另外，《概率图模型[Probabilistic Graphical Models](https://www.coursera.org/course/pgm)》由经典教材《Probabilistic Graphical Models》作者Daphne Koller教授。可以弥补其他机器学习课程概率图部分缺失的空白。
 2.  University of Washington 《机器学习[Machine Learning][1]》；《高性能科学运算<a href="https://www.coursera.org/course/scicomp" target="_blank">High Performance Scientific Computing</a>》用Python；《数据科学简介<a href="https://www.coursera.org/course/datasci" target="_blank">Introduction to Data Science</a>》用Python/R/SQL；《科学运算<a href="https://www.coursera.org/course/scientificcomp" target="_blank">Scientific Computing</a>》和《数据分析的计算方法<a href="https://www.coursera.org/course/compmethods" target="_blank">Computational Methods for Data Analysis</a>》用Matlab/Octave。看过后两个，视频为上课录像，清晰度不高。
 3.  台湾大学《<a href="https://www.coursera.org/course/ntumlone" target="_blank">機器學習基石 (Machine Learning Foundations)</a>》,中文授课英文作业。台大代表队几次获得KDD Cup第一，相信机器学习公开课也不错。老师还很像某个我认识的人，所以看视频效果不错。
 4.  Duke University 《数据分析与统计推断<a href="https://www.coursera.org/course/statistics" target="_blank">Data Analysis and Statistical Inference</a>》 10周，用R语言，重点是inference，参考书是<a href="http://www.openintro.org/stat/textbook.php" target="_blank">OpenIntro Statistics (Second Edition)</a>。
@@ -33,13 +33,15 @@ Coursera上Johns Hopkins University前两日发布了数据科学(Data Science)�
 
 # Udacity-youtube
 
-1.  中Boss-《数据科学简介<a href="https://www.udacity.com/course/ud359" data-ng-href="/course/ud359">Intro to Data Science</a>》 /《探索性数据分析<a href="https://www.udacity.com/course/ud651" data-ng-href="/course/ud651">Exploratory Data Analysis</a>》
-2.  大Boss-《Hadoop和MapReduce简介<a href="https://www.udacity.com/course/ud617" data-ng-href="/course/ud617">Intro to Hadoop and MapReduce</a>》/《用MongoDB进行数据处理<a href="https://www.udacity.com/course/ud032" data-ng-href="/course/ud032">Data Wrangling with MongoDB</a> 》。虽然Udacity不交钱不给certificate,但是还是有免费courseware可以看的，而且后两门公开课其他MOOC都没有，推荐给希望了解大数据的同学。
-3.  《探索性数据分析<a href="https://www.udacity.com/course/ud651" target="_blank">Exploratory Data Analysis</a>》用R和ggplot2，是facebook的data scientist讲的哦！
+1.  《数据科学简介<a href="https://www.udacity.com/course/ud359" data-ng-href="/course/ud359">Intro to Data Science</a>》 /《探索性数据分析<a href="https://www.udacity.com/course/ud651" data-ng-href="/course/ud651">Exploratory Data Analysis</a>》
+2.  《Hadoop和MapReduce简介<a href="https://www.udacity.com/course/ud617" data-ng-href="/course/ud617">Intro to Hadoop and MapReduce</a>》/《用MongoDB进行数据处理<a href="https://www.udacity.com/course/ud032" data-ng-href="/course/ud032">Data Wrangling with MongoDB</a> 》。虽然Udacity不交钱不给certificate,但是还是有免费courseware可以看的，而且后两门公开课其他MOOC都没有，推荐给希望了解大数据的同学。当然，仅仅只能起到了解的作用。
+3.  《探索性数据分析<a href="https://www.udacity.com/course/ud651" target="_blank">Exploratory Data Analysis</a>》用R和ggplot2，是facebook的data scientist讲的哦！有一些案例分析也是用的facebook的数据。
 
 # Others
 
 1.  Stanford University 《统计学习<a href="https://class.stanford.edu/courses/HumanitiesScience/StatLearning/Winter2014/about" target="_blank">Statistical Learning</a>》。机器学习必读《统计学习精要The Elements of Statistical Learning》（<a href="http://www-stat.stanford.edu/~tibs/ElemStatLearn/download.html" target="_blank">下载</a>）的作者之二——两个很萌的老头子一起讲的，参考书《统计学习及在R中的应用简介An Introduction to Statistical Learning with Applications in R》(<a href="http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf" target="_blank">下载</a>)也很不错，比ESL更基础。用R语言，视频在youtube上。
 2.  Harvard 《数据科学<a href="http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml" target="_blank">Data Science</a> 》提供了上课视频，略卡，需要一点点编程基础，建议在cs50后上。
+3. [Using R with Databases](bigdatauniversity.com/bdu-wp/bdu-course/using-r-with-databases/)简介用R连接数据库，耗时约3小时
+
 
  [1]: https://www.coursera.org/course/machlearning
